@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/BMI-Calculator/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <h1>TANSI B.M.I</h1>
+        </div>
+        <div id="newsLetter">
+            <h2 class="flow">Subscribe to our News Letter</h2>
+            <input class="flow email" type="email" placeholder="Enter Email"><br>
+        </div>
+        <div class="content">
+            <h1 id="title">KNOW YOUR B.M.I TODAY</h1>
+            <p class="body">Body Mass Index is a simple calculation using a persons's height and weight.
+                The formular is BMI = KG/(M*M) where kg is a persons's weight in kilograms and 
+                (m*m) is the height in meters squared. A BMI of 25.0 or more is overweight, while the healthy
+                range is 18.5 to 24.9. BMI applies to most adults 18-65 years.
+            </p>
+        </div>
+        <div class="content aside">
+            <div id="colo">
+                <h2>LET CALCULATE YOUR BMI</h2>
+            <form action="">
+                <div id="label">
+                    <label for="height">Height in meters</label><br>
+                <input type="number" id="height" placeholder="Enter Height" required>
+                </div>
+
+                <div id="label">
+                    <label for="weight">Weight in Kg</label><br>
+                <input type="number" id="weight" placeholder="Enter Weight" required>
+                </div>
+
+                <div id="label" >
+                    <input class="btn" type="button" onclick="calc()" value="CALCULATE"><br>
+                <input type="number" id="answer">
+                </div> 
+            </form>
+            <div id="adv">
+                <p id="advise">Your advise after calculating</p>
+            </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>copyright &copy 2023 TansiGlobal</p>
+    </footer>
+
+    <script lang="javascript" type="text/javascript" src="/BMI-Calculator/script.js"></script>
+</body>
+</html>
