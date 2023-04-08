@@ -14,9 +14,11 @@
         </div>
         <div id="newsLetter">
             <h2 class="flow">Subscribe to our News Letter</h2>
-            <input class="flow email" type="email" placeholder="Enter Email"><br>
+            <input class="flow email" type="email" placeholder="Enter Email">
+            <button>Submit</button><br>
         </div>
-        <div class="col-6 content">
+
+        <div class="col-6 content" id="im">
             <h1 id="title">KNOW YOUR B.M.I TODAY</h1>
             <p class="body">Body Mass Index is a simple calculation using a persons's height and weight.
                 The formular is BMI = KG/(M*M) where kg is a persons's weight in kilograms and 
@@ -24,7 +26,7 @@
                 range is 18.5 to 24.9. BMI applies to most adults 18-65 years.
             </p>
         </div>
-        <div class="col-6 content aside">
+        <div class="col-6  content aside">
             <div class="" id="colo">
                 <h2>LET CALCULATE YOUR BMI</h2>
             <form action="">
@@ -32,12 +34,12 @@
                     <label for="height">Height in meters</label><br>
                 <input type="number" id="height" placeholder="Enter Height" required>
                 </div>
-
+    
                 <div id="label">
                     <label for="weight">Weight in Kg</label><br>
                 <input type="number" id="weight" placeholder="Enter Weight" required>
                 </div>
-
+    
                 <div id="label" >
                     <input class="btn" type="button" onclick="calc()" value="CALCULATE"><br>
                 <input type="number" id="answer">
@@ -48,7 +50,9 @@
             </div>
             </div>
         </div>
+        </div>
     </div>
+
     <footer>
         <p>copyright &copy 2023 TansiGlobal</p>
     </footer>
